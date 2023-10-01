@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  padding: 100px;
+}
+.stepDiv{
+  display: flex;
+  justify-content: center;
+  
+}
+.countDiv{
+  display: flex;
+  justify-content: center;
+}
+.countMinus, .countPlus, .btnReset{
+  
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+.stepMinus:active, .stepPlus:active, .countMinus:active, .countPlus:active{
+  scale: 1.1;
+
+
+}
+
+
+.countentStep, .countentCount, .stepCount, .count{
+  margin: 10px;
+  
+}
+
+.contentShow{
+  background-color: rgba(128, 128, 128, 0.514);
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  
+}
